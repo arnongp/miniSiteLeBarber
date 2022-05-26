@@ -4,10 +4,11 @@
   box-sizing: border-box;
   font-size: 10px;
   list-style: none;
+  overflow-x: hidden;
 }
 
 html, body {
-  width: 37.5rem;
+  max-width: 40rem;
   margin: 0 auto;
 }
 
@@ -57,7 +58,7 @@ menu ul li {
   background-image: url('img/hemi_bg.jpg');
   background-position: cover;
   background-repeat: no-repeat;
-  background-size: 37.5rem;
+  background-size: 100%;
 
   /* max-width: 100%; */
 
