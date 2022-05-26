@@ -4,12 +4,11 @@
   box-sizing: border-box;
   font-size: 10px;
   list-style: none;
-  overflow-x: hidden;
 }
 
 html, body {
-  max-width: 40rem;
-  margin: 0 auto;
+  max-width: 100vw;
+  margin:auto;
 }
 
 header {
@@ -84,7 +83,7 @@ menu ul li {
 .pole {
   background-image: url('img/pole_bg.jpg');
   height: 22rem;
-  background-size: 37.5rem;
+  background-size: 100%;
   background-position: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -95,11 +94,12 @@ menu ul li {
 .pole p {
   color: #fff;
   font-size: 2rem;
-  width: 18rem;
+  max-width: 18rem;
   line-height: 4rem;
   text-align: center;
-  position: relative;
-  left: 3rem;
+  margin-left: 3rem;
+  /* position: relative;
+  left: 3rem; */
 }
 
 #servicesText {
@@ -127,7 +127,7 @@ menu ul li {
 .services {
   background-color: #E5E5E5;
   width: 100%;
-  height: 58rem;
+  height: 57rem;
 }
 
 #servicesText p {
@@ -172,12 +172,13 @@ menu ul li {
 .open {
   background-image: url("img/open_bg.jpg");
   height: 22rem;
-  background-size: 37.5rem;
+  background-size: 100%;
   background-position: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;  color: #fff;
   gap: 3rem;
+  overflow: hidden;
 }
 
 
@@ -214,7 +215,7 @@ menu ul li {
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 2px );
   -webkit-backdrop-filter: blur( 2px );
-  border-radius: 10px;
+  border-radius: .4rem;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
